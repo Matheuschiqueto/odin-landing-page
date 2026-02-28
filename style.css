@@ -126,7 +126,7 @@ button {
     border-radius: 15px;
 }
 
-.quote{
+.quote {
     background-color: #E5E7EB;
     padding: 100px 0;
 }
@@ -134,8 +134,8 @@ button {
 .quote .container {
     display: flex;
     flex-direction: column;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
 }
 
 .quote-text {
@@ -149,5 +149,49 @@ button {
 .author {
     font-size: 24px;
     color: #1F2937;
-    align-self: self-end;
+    align-self: flex-end;
+}
+
+.cta .container {
+    margin: 100px;
+}
+
+.cta-banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 50px 80px;
+    width: 100%;
+}
+
+.cta-text h3 {
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.cta-text p {
+    font-size: 18px;
+    color: white;
+
+}
+
+.cta-banner button {
+    border: 2px solid #F9FAF8;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
 }
